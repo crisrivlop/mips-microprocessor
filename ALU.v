@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 module ALU
 	#(parameter bus = 8)
 	(a,b,cin,c2,sout,zero,cout,overflow,negative);
@@ -30,7 +29,3 @@ module ALU
 	
 
 endmodule
-
-=======
-//module ALU(ain,bin,sout,zero,overflow,negative);
->>>>>>> b02307fcf567b9adf36c3534719a26a837393104
