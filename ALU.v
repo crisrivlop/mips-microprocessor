@@ -30,3 +30,6 @@ module ALU
 
 endmodule
 
+=======
+//module ALU(ain,bin,sout,zero,overflow,negative);
+>>>>>>> b02307fcf567b9adf36c3534719a26a837393104
