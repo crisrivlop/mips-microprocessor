@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 module ALU
 	#(parameter bus = 8)
 	(a,b,cin,c2,sout,zero,cout,overflow,negative);
