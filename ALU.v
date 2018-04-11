@@ -1,1 +1,1 @@
-module ALU(ain,bin,sout,zero,overflow,negative);
+//module ALU(ain,bin,sout,zero,overflow,negative);
