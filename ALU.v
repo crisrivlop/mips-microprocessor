@@ -1,3 +1,5 @@
+
+//the following ALU is a parameterizable module if you want increase or decrease the bus size is up to you! :)
 module ALU
 	#(parameter bus = 8)
 	(a,b,opselect,sout,zero,cout,overflow,negative);
