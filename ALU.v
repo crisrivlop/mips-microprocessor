@@ -1,7 +1,6 @@
 
 //the following ALU is a parameterizable module if you want increase or decrease the bus size is up to you! :)
-module ALU
-	#(parameter bus = 8)
+module ALU #(parameter bus = 8)
 	(a,b,opselect,sout,zero,cout,overflow,negative);
 
 	input [bus-1:0] a;
@@ -58,12 +57,8 @@ module ALU
 	wire [bus-1:0] sllout,srlout;
 	parameterizable_shift_left #(bus) sll_dut(a,b,sllout);
 	parameterizable_shift_right #(bus) srl_dut(a,b,srlout);
-
-
 	
 	wire [bus-1:0] sltout;
-	
-	
 	
 	parametrizable_slt #(bus) slt_dut(a,b,sltout);
 	

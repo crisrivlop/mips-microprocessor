@@ -1,4 +1,5 @@
 `timescale 1ns / 1ns
+
 module zero_ext_tb #(parameter bus_size = 8, bus_size_in = 4);
 
 	// Inputs

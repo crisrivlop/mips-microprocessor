@@ -1,5 +1,5 @@
-module mux_8_3 #(parameter bus_size = 32)
-	(input [bus_size-1:0] 	a,b,c,d,e,f,g,h,
+module mux_8_1 #(parameter bus_size = 32)
+	(input [bus_size-1:0] 		a,b,c,d,e,f,g,h,
 		input [2:0] 				select,
 		output [bus_size-1:0] out);
 

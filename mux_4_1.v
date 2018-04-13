@@ -1,5 +1,5 @@
 module mux_4_1 #(parameter bus_size = 32)
-	(input [bus_size-1:0] 	a,b,c,d,
+	(input [bus_size-1:0] 		a,b,c,d,
 		input [1:0] 				select,
 		output [bus_size-1:0] out);
 
