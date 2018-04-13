@@ -5,6 +5,7 @@ module mem_block
 
 	reg [31:0] my_memory [0:4095];	
 	
+	/*
 	integer i;
 
 	initial begin
@@ -13,7 +14,7 @@ module mem_block
 		end	
 	end
 	
-
+	*/
 
 	always @(posedge clk) begin
 	// Use memread to indicate a valid address is on the line and read the memory into a register at that address when memread is asserted
